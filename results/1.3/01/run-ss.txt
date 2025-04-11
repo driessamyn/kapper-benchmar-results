@@ -1,0 +1,65 @@
+# Run complete. Total time: 00:05:00
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                        (databaseType)          (library)  (rows)  Mode  Cnt       Score        Error  Units
+KapperBenchmark.find100                  SQLITE               JDBC    1000    ss    3    2397.542 ±   2924.927  us/op
+KapperBenchmark.find100                  SQLITE             KAPPER    1000    ss    3  106229.667 ±  18705.120  us/op
+KapperBenchmark.find100                  SQLITE  KAPPER-NO-AUTOMAP    1000    ss    3   19488.694 ±   8946.259  us/op
+KapperBenchmark.find100                  SQLITE          HIBERNATE    1000    ss    3  485747.889 ± 127151.437  us/op
+KapperBenchmark.find100                  SQLITE              KTORM    1000    ss    3  143203.194 ±  21249.367  us/op
+KapperBenchmark.find100              POSTGRESQL               JDBC    1000    ss    3    5195.486 ±  24426.507  us/op
+KapperBenchmark.find100              POSTGRESQL             KAPPER    1000    ss    3  110849.792 ±  13492.761  us/op
+KapperBenchmark.find100              POSTGRESQL  KAPPER-NO-AUTOMAP    1000    ss    3   20654.125 ±  22400.105  us/op
+KapperBenchmark.find100              POSTGRESQL          HIBERNATE    1000    ss    3  499091.514 ± 132960.749  us/op
+KapperBenchmark.find100              POSTGRESQL              KTORM    1000    ss    3  155753.098 ±  51596.611  us/op
+KapperBenchmark.findById                 SQLITE               JDBC    1000    ss    3    1549.528 ±   1256.253  us/op
+KapperBenchmark.findById                 SQLITE             KAPPER    1000    ss    3   99971.903 ±  16301.350  us/op
+KapperBenchmark.findById                 SQLITE  KAPPER-NO-AUTOMAP    1000    ss    3   19710.528 ±   6275.619  us/op
+KapperBenchmark.findById                 SQLITE          HIBERNATE    1000    ss    3  392632.444 ± 158240.638  us/op
+KapperBenchmark.findById                 SQLITE              KTORM    1000    ss    3  138963.417 ±  15768.245  us/op
+KapperBenchmark.findById             POSTGRESQL               JDBC    1000    ss    3    4290.083 ±  25264.233  us/op
+KapperBenchmark.findById             POSTGRESQL             KAPPER    1000    ss    3  105784.403 ±  82385.799  us/op
+KapperBenchmark.findById             POSTGRESQL  KAPPER-NO-AUTOMAP    1000    ss    3   23281.084 ±  18482.142  us/op
+KapperBenchmark.findById             POSTGRESQL          HIBERNATE    1000    ss    3  417739.111 ± 171410.626  us/op
+KapperBenchmark.findById             POSTGRESQL              KTORM    1000    ss    3  159035.778 ±  66380.585  us/op
+KapperBenchmark.insertSingleRow          SQLITE               JDBC    1000    ss    3     643.125 ±    892.548  us/op
+KapperBenchmark.insertSingleRow          SQLITE             KAPPER    1000    ss    3    6476.208 ±   1483.863  us/op
+KapperBenchmark.insertSingleRow          SQLITE  KAPPER-NO-AUTOMAP    1000    ss    3    6490.570 ±   1417.150  us/op
+KapperBenchmark.insertSingleRow          SQLITE          HIBERNATE    1000    ss    3  400076.264 ± 134638.741  us/op
+KapperBenchmark.insertSingleRow          SQLITE              KTORM    1000    ss    3  134926.528 ±   9096.784  us/op
+KapperBenchmark.insertSingleRow      POSTGRESQL               JDBC    1000    ss    3    1361.083 ±  23293.874  us/op
+KapperBenchmark.insertSingleRow      POSTGRESQL             KAPPER    1000    ss    3    7732.458 ±   4398.385  us/op
+KapperBenchmark.insertSingleRow      POSTGRESQL  KAPPER-NO-AUTOMAP    1000    ss    3    6380.097 ±  19456.591  us/op
+KapperBenchmark.insertSingleRow      POSTGRESQL          HIBERNATE    1000    ss    3  433922.958 ± 373248.185  us/op
+KapperBenchmark.insertSingleRow      POSTGRESQL              KTORM    1000    ss    3  148398.639 ±  92254.642  us/op
+KapperBenchmark.simpleJoin               SQLITE               JDBC    1000    ss    3    2245.847 ±   1259.515  us/op
+KapperBenchmark.simpleJoin               SQLITE             KAPPER    1000    ss    3   99820.847 ±  27843.716  us/op
+KapperBenchmark.simpleJoin               SQLITE  KAPPER-NO-AUTOMAP    1000    ss    3   20223.667 ±  34325.559  us/op
+KapperBenchmark.simpleJoin               SQLITE          HIBERNATE    1000    ss    3  537426.500 ±  31111.619  us/op
+KapperBenchmark.simpleJoin               SQLITE              KTORM    1000    ss    3  139962.236 ±  19644.391  us/op
+KapperBenchmark.simpleJoin           POSTGRESQL               JDBC    1000    ss    3    3087.264 ±   3161.127  us/op
+KapperBenchmark.simpleJoin           POSTGRESQL             KAPPER    1000    ss    3  107965.111 ±  53547.986  us/op
+KapperBenchmark.simpleJoin           POSTGRESQL  KAPPER-NO-AUTOMAP    1000    ss    3   22311.431 ±  22259.463  us/op
+KapperBenchmark.simpleJoin           POSTGRESQL          HIBERNATE    1000    ss    3  554448.375 ± 204255.039  us/op
+KapperBenchmark.simpleJoin           POSTGRESQL              KTORM    1000    ss    3  169564.764 ± 294634.049  us/op
+KapperBenchmark.updateSingleRow          SQLITE               JDBC    1000    ss    3     605.292 ±    293.257  us/op
+KapperBenchmark.updateSingleRow          SQLITE             KAPPER    1000    ss    3    6866.083 ±   8841.806  us/op
+KapperBenchmark.updateSingleRow          SQLITE  KAPPER-NO-AUTOMAP    1000    ss    3    6597.861 ±   5559.334  us/op
+KapperBenchmark.updateSingleRow          SQLITE          HIBERNATE    1000    ss    3  407102.097 ±  68228.787  us/op
+KapperBenchmark.updateSingleRow          SQLITE              KTORM    1000    ss    3  136371.319 ±  38822.793  us/op
+KapperBenchmark.updateSingleRow      POSTGRESQL               JDBC    1000    ss    3    2838.153 ±   3669.742  us/op
+KapperBenchmark.updateSingleRow      POSTGRESQL             KAPPER    1000    ss    3    6188.708 ±  24268.485  us/op
+KapperBenchmark.updateSingleRow      POSTGRESQL  KAPPER-NO-AUTOMAP    1000    ss    3    6934.292 ±  25167.581  us/op
+KapperBenchmark.updateSingleRow      POSTGRESQL          HIBERNATE    1000    ss    3  441166.500 ± 412313.396  us/op
+KapperBenchmark.updateSingleRow      POSTGRESQL              KTORM    1000    ss    3  152161.264 ±  41216.242  us/op

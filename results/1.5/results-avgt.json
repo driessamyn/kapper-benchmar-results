@@ -1,0 +1,4204 @@
+[
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.find100",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "SQLITE",
+            "library" : "JDBC",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 73.65492097991638,
+            "scoreError" : 1.9225027643852548,
+            "scoreConfidence" : [
+                71.73241821553113,
+                75.57742374430164
+            ],
+            "scorePercentiles" : {
+                "0.0" : 72.44543071155627,
+                "50.0" : 73.00156809389644,
+                "90.0" : 77.29937387769651,
+                "95.0" : 79.05921316659025,
+                "99.0" : 79.05921316659025,
+                "99.9" : 79.05921316659025,
+                "99.99" : 79.05921316659025,
+                "99.999" : 79.05921316659025,
+                "99.9999" : 79.05921316659025,
+                "100.0" : 79.05921316659025
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    73.18585170062053,
+                    72.75913178565195,
+                    72.61757023450197,
+                    72.79734211253472,
+                    72.7188341323803
+                ],
+                [
+                    72.49968586713834,
+                    72.44543071155627,
+                    73.00156809389644,
+                    73.19171029773047,
+                    73.08367702235134
+                ],
+                [
+                    75.02522310494207,
+                    72.9206846522607,
+                    73.39174413148982,
+                    79.05921316659025,
+                    76.12614768510069
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.find100",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "SQLITE",
+            "library" : "KAPPER",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 220.5262679076839,
+            "scoreError" : 8.848514834199074,
+            "scoreConfidence" : [
+                211.6777530734848,
+                229.37478274188297
+            ],
+            "scorePercentiles" : {
+                "0.0" : 214.0514355232185,
+                "50.0" : 217.79340203673078,
+                "90.0" : 233.09300731057155,
+                "95.0" : 248.02283600218135,
+                "99.0" : 248.02283600218135,
+                "99.9" : 248.02283600218135,
+                "99.99" : 248.02283600218135,
+                "99.999" : 248.02283600218135,
+                "99.9999" : 248.02283600218135,
+                "100.0" : 248.02283600218135
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    214.63263199004334,
+                    217.70050280593378,
+                    217.47737485868336,
+                    220.6632074864424,
+                    248.02283600218135
+                ],
+                [
+                    223.13978818283167,
+                    221.70766309212567,
+                    222.67724461552154,
+                    222.71689228302978,
+                    221.38192816384307
+                ],
+                [
+                    214.64119574358534,
+                    214.9653666351688,
+                    214.0514355232185,
+                    217.79340203673078,
+                    216.32254919591907
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.find100",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "SQLITE",
+            "library" : "KAPPER-RECORD",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 106.89325964971005,
+            "scoreError" : 0.8286006523637746,
+            "scoreConfidence" : [
+                106.06465899734627,
+                107.72186030207382
+            ],
+            "scorePercentiles" : {
+                "0.0" : 105.58461692655034,
+                "50.0" : 107.03385878981028,
+                "90.0" : 108.1650525532897,
+                "95.0" : 108.39665561263195,
+                "99.0" : 108.39665561263195,
+                "99.9" : 108.39665561263195,
+                "99.99" : 108.39665561263195,
+                "99.999" : 108.39665561263195,
+                "99.9999" : 108.39665561263195,
+                "100.0" : 108.39665561263195
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    107.28957212373255,
+                    106.25406342229866,
+                    106.68569453088367,
+                    106.13406776964683,
+                    106.23207626326963
+                ],
+                [
+                    106.92179912411878,
+                    107.10244625623248,
+                    107.4809305269039,
+                    107.03385878981028,
+                    105.91197932100071
+                ],
+                [
+                    107.30160310074194,
+                    108.39665561263195,
+                    105.58461692655034,
+                    108.0106505137282,
+                    107.0588804641007
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.find100",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "SQLITE",
+            "library" : "KAPPER-NO-AUTOMAP",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 77.96843439648829,
+            "scoreError" : 0.3629936298288965,
+            "scoreConfidence" : [
+                77.6054407666594,
+                78.33142802631718
+            ],
+            "scorePercentiles" : {
+                "0.0" : 77.43612113709166,
+                "50.0" : 77.93788396404257,
+                "90.0" : 78.37872766333122,
+                "95.0" : 78.39078573779484,
+                "99.0" : 78.39078573779484,
+                "99.9" : 78.39078573779484,
+                "99.99" : 78.39078573779484,
+                "99.999" : 78.39078573779484,
+                "99.9999" : 78.39078573779484,
+                "100.0" : 78.39078573779484
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    77.61009800272919,
+                    78.39078573779484,
+                    77.8627812874042,
+                    77.43612113709166,
+                    77.67106052043225
+                ],
+                [
+                    77.93788396404257,
+                    78.1516285102927,
+                    77.6145014191107,
+                    77.6331657901677,
+                    78.27086266503973
+                ],
+                [
+                    78.18731572696588,
+                    77.70412086581162,
+                    78.32159933951043,
+                    78.37068894702215,
+                    78.36390203390893
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.find100",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "SQLITE",
+            "library" : "HIBERNATE",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 127.32794890582863,
+            "scoreError" : 0.5787459900543832,
+            "scoreConfidence" : [
+                126.74920291577425,
+                127.90669489588302
+            ],
+            "scorePercentiles" : {
+                "0.0" : 126.6986377677622,
+                "50.0" : 127.17926021510844,
+                "90.0" : 128.22064572254408,
+                "95.0" : 128.68489985086907,
+                "99.0" : 128.68489985086907,
+                "99.9" : 128.68489985086907,
+                "99.99" : 128.68489985086907,
+                "99.999" : 128.68489985086907,
+                "99.9999" : 128.68489985086907,
+                "100.0" : 128.68489985086907
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    127.23243196274998,
+                    127.04296242796578,
+                    126.6986377677622,
+                    128.68489985086907,
+                    126.92492898988105
+                ],
+                [
+                    127.91114297032739,
+                    127.70166850377628,
+                    127.17926021510844,
+                    127.09056099542916,
+                    127.08126820536259
+                ],
+                [
+                    126.76200364667747,
+                    127.49658265347746,
+                    126.77697525078528,
+                    127.4331582940802,
+                    127.90275185317724
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.find100",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "SQLITE",
+            "library" : "KTORM",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 685.5813644540972,
+            "scoreError" : 226.9510709374754,
+            "scoreConfidence" : [
+                458.6302935166218,
+                912.5324353915726
+            ],
+            "scorePercentiles" : {
+                "0.0" : 449.6967618149146,
+                "50.0" : 578.2379899410337,
+                "90.0" : 1097.0102016822432,
+                "95.0" : 1108.039946179129,
+                "99.0" : 1108.039946179129,
+                "99.9" : 1108.039946179129,
+                "99.99" : 1108.039946179129,
+                "99.999" : 1108.039946179129,
+                "99.9999" : 1108.039946179129,
+                "100.0" : 1108.039946179129
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    1108.039946179129,
+                    494.68959549006036,
+                    641.7856097077761,
+                    746.1743374608384,
+                    540.8322292191435
+                ],
+                [
+                    847.0272343997466,
+                    541.0711148940655,
+                    828.8791231792273,
+                    565.6748746609403,
+                    539.5559810391002
+                ],
+                [
+                    449.6967618149146,
+                    491.676185712882,
+                    1089.6570386843193,
+                    578.2379899410337,
+                    820.7224444282805
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.find100",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "POSTGRESQL",
+            "library" : "JDBC",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 86.72337545472764,
+            "scoreError" : 0.2595674626572748,
+            "scoreConfidence" : [
+                86.46380799207037,
+                86.98294291738492
+            ],
+            "scorePercentiles" : {
+                "0.0" : 86.28015472804069,
+                "50.0" : 86.71081326564206,
+                "90.0" : 87.07652233229888,
+                "95.0" : 87.1085058411825,
+                "99.0" : 87.1085058411825,
+                "99.9" : 87.1085058411825,
+                "99.99" : 87.1085058411825,
+                "99.999" : 87.1085058411825,
+                "99.9999" : 87.1085058411825,
+                "100.0" : 87.1085058411825
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    86.61025172694379,
+                    86.71081326564206,
+                    86.38545371361487,
+                    86.54653633439402,
+                    86.61620638769571
+                ],
+                [
+                    86.72825253208464,
+                    87.05159955802259,
+                    86.51080924555701,
+                    86.70149415331312,
+                    86.28015472804069
+                ],
+                [
+                    87.05519999304312,
+                    87.1085058411825,
+                    86.83807854329685,
+                    86.84972363465977,
+                    86.85755216342399
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.find100",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "POSTGRESQL",
+            "library" : "KAPPER",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 440.24689299553853,
+            "scoreError" : 308.53744156682814,
+            "scoreConfidence" : [
+                131.7094514287104,
+                748.7843345623667
+            ],
+            "scorePercentiles" : {
+                "0.0" : 225.1020683618362,
+                "50.0" : 271.22002909938226,
+                "90.0" : 971.4601348703925,
+                "95.0" : 1081.9746216216215,
+                "99.0" : 1081.9746216216215,
+                "99.9" : 1081.9746216216215,
+                "99.99" : 1081.9746216216215,
+                "99.999" : 1081.9746216216215,
+                "99.9999" : 1081.9746216216215,
+                "100.0" : 1081.9746216216215
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    1081.9746216216215,
+                    656.5964204933089,
+                    242.22342797656515,
+                    235.89080305530672,
+                    295.0970977536702
+                ],
+                [
+                    563.3526132011714,
+                    326.67200731309174,
+                    255.15084931646604,
+                    271.22002909938226,
+                    819.2568615157963
+                ],
+                [
+                    258.0078619533828,
+                    240.09507557581574,
+                    235.27984732609002,
+                    225.1020683618362,
+                    897.783810369573
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.find100",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "POSTGRESQL",
+            "library" : "KAPPER-RECORD",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 126.19294499222744,
+            "scoreError" : 1.2501833342331505,
+            "scoreConfidence" : [
+                124.94276165799428,
+                127.4431283264606
+            ],
+            "scorePercentiles" : {
+                "0.0" : 124.05869100607865,
+                "50.0" : 126.6422162360503,
+                "90.0" : 127.73390061340413,
+                "95.0" : 127.7947559485777,
+                "99.0" : 127.7947559485777,
+                "99.9" : 127.7947559485777,
+                "99.99" : 127.7947559485777,
+                "99.999" : 127.7947559485777,
+                "99.9999" : 127.7947559485777,
+                "100.0" : 127.7947559485777
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    124.95775803350728,
+                    124.33280132154214,
+                    126.65003966184919,
+                    125.35877697571246,
+                    124.05869100607865
+                ],
+                [
+                    126.77350525622515,
+                    127.17650292323334,
+                    127.7947559485777,
+                    127.30877692072706,
+                    127.69333038995508
+                ],
+                [
+                    125.30649441690451,
+                    126.69085725496153,
+                    126.26207309498561,
+                    125.88759544310172,
+                    126.6422162360503
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.find100",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "POSTGRESQL",
+            "library" : "KAPPER-NO-AUTOMAP",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 89.50952792740335,
+            "scoreError" : 2.9741043468160875,
+            "scoreConfidence" : [
+                86.53542358058726,
+                92.48363227421945
+            ],
+            "scorePercentiles" : {
+                "0.0" : 87.83524693092608,
+                "50.0" : 88.57987476549502,
+                "90.0" : 95.46162479986579,
+                "95.0" : 98.06180945567164,
+                "99.0" : 98.06180945567164,
+                "99.9" : 98.06180945567164,
+                "99.99" : 98.06180945567164,
+                "99.999" : 98.06180945567164,
+                "99.9999" : 98.06180945567164,
+                "100.0" : 98.06180945567164
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    87.9868631097829,
+                    88.57987476549502,
+                    88.20183085200212,
+                    87.90248742094167,
+                    88.19456143164275
+                ],
+                [
+                    88.65805700317078,
+                    88.6625985472584,
+                    88.12441662850904,
+                    88.24372663468999,
+                    89.04888403579625
+                ],
+                [
+                    89.98294392103276,
+                    98.06180945567164,
+                    93.72816836266188,
+                    89.43144981146911,
+                    87.83524693092608
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.find100",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "POSTGRESQL",
+            "library" : "HIBERNATE",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 126.38874414003205,
+            "scoreError" : 2.0859796610050685,
+            "scoreConfidence" : [
+                124.30276447902698,
+                128.4747238010371
+            ],
+            "scorePercentiles" : {
+                "0.0" : 123.30719451494468,
+                "50.0" : 126.34370448175736,
+                "90.0" : 129.52951416159442,
+                "95.0" : 129.86700482891115,
+                "99.0" : 129.86700482891115,
+                "99.9" : 129.86700482891115,
+                "99.99" : 129.86700482891115,
+                "99.999" : 129.86700482891115,
+                "99.9999" : 129.86700482891115,
+                "100.0" : 129.86700482891115
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    129.86700482891115,
+                    126.48032085629076,
+                    126.59616105446909,
+                    128.54394709388973,
+                    125.29239075998498
+                ],
+                [
+                    124.57409414283225,
+                    124.33702439448516,
+                    123.30719451494468,
+                    124.64367968399542,
+                    129.30452038338328
+                ],
+                [
+                    125.28168101829833,
+                    126.09324253110988,
+                    126.44466902493873,
+                    126.34370448175736,
+                    128.72152733118972
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.find100",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "POSTGRESQL",
+            "library" : "KTORM",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 992.602146473255,
+            "scoreError" : 286.46771427922107,
+            "scoreConfidence" : [
+                706.1344321940339,
+                1279.069860752476
+            ],
+            "scorePercentiles" : {
+                "0.0" : 488.50286325036603,
+                "50.0" : 1022.3043097670617,
+                "90.0" : 1398.299311120038,
+                "95.0" : 1558.2680541259983,
+                "99.0" : 1558.2680541259983,
+                "99.9" : 1558.2680541259983,
+                "99.99" : 1558.2680541259983,
+                "99.999" : 1558.2680541259983,
+                "99.9999" : 1558.2680541259983,
+                "100.0" : 1558.2680541259983
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    860.2749673001199,
+                    1122.8505276156263,
+                    1091.314254080756,
+                    1120.707950716846,
+                    1558.2680541259983
+                ],
+                [
+                    1291.6534824493979,
+                    743.3761375575011,
+                    550.64429779978,
+                    912.4940259029552,
+                    488.50286325036603
+                ],
+                [
+                    1078.0675467672413,
+                    954.8273536259542,
+                    1022.3043097670617,
+                    1017.4317218381456,
+                    1076.3147043010754
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.findById",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "SQLITE",
+            "library" : "JDBC",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 4.170101370579439,
+            "scoreError" : 0.06890279638179303,
+            "scoreConfidence" : [
+                4.101198574197646,
+                4.239004166961232
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.102191787682754,
+                "50.0" : 4.148632998797329,
+                "90.0" : 4.293131389298626,
+                "95.0" : 4.331025411543639,
+                "99.0" : 4.331025411543639,
+                "99.9" : 4.331025411543639,
+                "99.99" : 4.331025411543639,
+                "99.999" : 4.331025411543639,
+                "99.9999" : 4.331025411543639,
+                "100.0" : 4.331025411543639
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    4.138812952020213,
+                    4.123969111889536,
+                    4.115123115329884,
+                    4.102191787682754,
+                    4.1173048913428305
+                ],
+                [
+                    4.246456649740158,
+                    4.162679375813609,
+                    4.26786870780195,
+                    4.331025411543639,
+                    4.164617484077414
+                ],
+                [
+                    4.148632998797329,
+                    4.172039965590882,
+                    4.13675941889453,
+                    4.134179287167124,
+                    4.189859400999729
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.findById",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "SQLITE",
+            "library" : "KAPPER",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 9.346893336467952,
+            "scoreError" : 0.08938329917772829,
+            "scoreConfidence" : [
+                9.257510037290224,
+                9.43627663564568
+            ],
+            "scorePercentiles" : {
+                "0.0" : 9.236888981594458,
+                "50.0" : 9.317826737310625,
+                "90.0" : 9.474261039903976,
+                "95.0" : 9.48219489881365,
+                "99.0" : 9.48219489881365,
+                "99.9" : 9.48219489881365,
+                "99.99" : 9.48219489881365,
+                "99.999" : 9.48219489881365,
+                "99.9999" : 9.48219489881365,
+                "100.0" : 9.48219489881365
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    9.236888981594458,
+                    9.300996714121101,
+                    9.26838244828851,
+                    9.299923078209675,
+                    9.24112824414793
+                ],
+                [
+                    9.43418307119299,
+                    9.449905940351035,
+                    9.48219489881365,
+                    9.420353126629285,
+                    9.468971800630857
+                ],
+                [
+                    9.353123848931153,
+                    9.348353927043837,
+                    9.294976521714906,
+                    9.286190708039314,
+                    9.317826737310625
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.findById",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "SQLITE",
+            "library" : "KAPPER-RECORD",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 8.065849890221056,
+            "scoreError" : 0.07192192817584943,
+            "scoreConfidence" : [
+                7.993927962045206,
+                8.137771818396905
+            ],
+            "scorePercentiles" : {
+                "0.0" : 7.960294298857671,
+                "50.0" : 8.100010128782312,
+                "90.0" : 8.131244539972277,
+                "95.0" : 8.145763613990312,
+                "99.0" : 8.145763613990312,
+                "99.9" : 8.145763613990312,
+                "99.99" : 8.145763613990312,
+                "99.999" : 8.145763613990312,
+                "99.9999" : 8.145763613990312,
+                "100.0" : 8.145763613990312
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    8.10354082960948,
+                    8.100010128782312,
+                    8.120305016329556,
+                    8.145763613990312,
+                    8.094037880870525
+                ],
+                [
+                    7.980370177179803,
+                    7.96770896679519,
+                    8.014175442728863,
+                    7.962566784126252,
+                    7.960294298857671
+                ],
+                [
+                    8.111990016177716,
+                    8.095536393044885,
+                    8.109526466758659,
+                    8.121565157293588,
+                    8.100357180771011
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.findById",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "SQLITE",
+            "library" : "KAPPER-NO-AUTOMAP",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 7.636367706099375,
+            "scoreError" : 0.050052349089865215,
+            "scoreConfidence" : [
+                7.58631535700951,
+                7.686420055189241
+            ],
+            "scorePercentiles" : {
+                "0.0" : 7.544409790294131,
+                "50.0" : 7.635048617784978,
+                "90.0" : 7.707010117855171,
+                "95.0" : 7.710194101422254,
+                "99.0" : 7.710194101422254,
+                "99.9" : 7.710194101422254,
+                "99.99" : 7.710194101422254,
+                "99.999" : 7.710194101422254,
+                "99.9999" : 7.710194101422254,
+                "100.0" : 7.710194101422254
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    7.696193975925852,
+                    7.661950748412227,
+                    7.6235265753700165,
+                    7.710194101422254,
+                    7.658624855194999
+                ],
+                [
+                    7.588158992370441,
+                    7.544409790294131,
+                    7.644576795816315,
+                    7.613772968574123,
+                    7.581322755009908
+                ],
+                [
+                    7.704887462143782,
+                    7.629114488652822,
+                    7.635048617784978,
+                    7.604217951757065,
+                    7.64951551276173
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.findById",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "SQLITE",
+            "library" : "HIBERNATE",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 5.534514952049203,
+            "scoreError" : 0.015696609590735267,
+            "scoreConfidence" : [
+                5.518818342458467,
+                5.550211561639938
+            ],
+            "scorePercentiles" : {
+                "0.0" : 5.50112733128514,
+                "50.0" : 5.536654004340737,
+                "90.0" : 5.556317401522806,
+                "95.0" : 5.558376039042681,
+                "99.0" : 5.558376039042681,
+                "99.9" : 5.558376039042681,
+                "99.99" : 5.558376039042681,
+                "99.999" : 5.558376039042681,
+                "99.9999" : 5.558376039042681,
+                "100.0" : 5.558376039042681
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    5.546281282037925,
+                    5.523162803284519,
+                    5.5245917654552255,
+                    5.539978694807884,
+                    5.536654004340737
+                ],
+                [
+                    5.535656407254799,
+                    5.540353652892708,
+                    5.50112733128514,
+                    5.526597795549781,
+                    5.524980054888523
+                ],
+                [
+                    5.558376039042681,
+                    5.554944976509557,
+                    5.52073409130524,
+                    5.538890155069987,
+                    5.54539522701331
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.findById",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "SQLITE",
+            "library" : "KTORM",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 258.63718501416673,
+            "scoreError" : 202.01584047031645,
+            "scoreConfidence" : [
+                56.621344543850284,
+                460.6530254844832
+            ],
+            "scorePercentiles" : {
+                "0.0" : 91.90809754126958,
+                "50.0" : 144.45369974204644,
+                "90.0" : 542.7291477021702,
+                "95.0" : 564.2598280770916,
+                "99.0" : 564.2598280770916,
+                "99.9" : 564.2598280770916,
+                "99.99" : 564.2598280770916,
+                "99.999" : 564.2598280770916,
+                "99.9999" : 564.2598280770916,
+                "100.0" : 564.2598280770916
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    99.62699657588789,
+                    98.06910535913877,
+                    101.55237225805188,
+                    97.4474432371383,
+                    91.90809754126958
+                ],
+                [
+                    101.98450941751312,
+                    110.56297766919454,
+                    144.45369974204644,
+                    200.3187897325177,
+                    326.3353389158783
+                ],
+                [
+                    472.3576906739664,
+                    451.970158013544,
+                    564.2598280770916,
+                    528.3753607855559,
+                    490.33540721370605
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.findById",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "POSTGRESQL",
+            "library" : "JDBC",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 51.68550382593002,
+            "scoreError" : 0.2617514501815426,
+            "scoreConfidence" : [
+                51.42375237574848,
+                51.94725527611156
+            ],
+            "scorePercentiles" : {
+                "0.0" : 51.28682742782152,
+                "50.0" : 51.6439719627133,
+                "90.0" : 52.103246137709284,
+                "95.0" : 52.14294667333771,
+                "99.0" : 52.14294667333771,
+                "99.9" : 52.14294667333771,
+                "99.99" : 52.14294667333771,
+                "99.999" : 52.14294667333771,
+                "99.9999" : 52.14294667333771,
+                "100.0" : 52.14294667333771
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    51.82692337577572,
+                    51.588686776544314,
+                    51.67921391246876,
+                    51.28682742782152,
+                    51.859946517967266
+                ],
+                [
+                    52.14294667333771,
+                    51.716050423470286,
+                    51.6439719627133,
+                    51.570025848558586,
+                    51.59535109465717
+                ],
+                [
+                    52.076779113957,
+                    51.92237665991798,
+                    51.549637505668,
+                    51.48168641459322,
+                    51.34213368149965
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.findById",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "POSTGRESQL",
+            "library" : "KAPPER",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 55.940546004914054,
+            "scoreError" : 0.3808694032978232,
+            "scoreConfidence" : [
+                55.55967660161623,
+                56.32141540821188
+            ],
+            "scorePercentiles" : {
+                "0.0" : 55.28767241455493,
+                "50.0" : 55.92333338920363,
+                "90.0" : 56.64077330913918,
+                "95.0" : 56.684143206660245,
+                "99.0" : 56.684143206660245,
+                "99.9" : 56.684143206660245,
+                "99.99" : 56.684143206660245,
+                "99.999" : 56.684143206660245,
+                "99.9999" : 56.684143206660245,
+                "100.0" : 56.684143206660245
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    55.83074627698143,
+                    55.96745265570838,
+                    55.8150056347143,
+                    55.666865576141994,
+                    56.17538702762158
+                ],
+                [
+                    56.01519708323532,
+                    55.969921761321665,
+                    55.97275951462283,
+                    55.645081365471675,
+                    55.9059451313583
+                ],
+                [
+                    56.684143206660245,
+                    56.61186004412514,
+                    55.63681899198932,
+                    55.28767241455493,
+                    55.92333338920363
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.findById",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "POSTGRESQL",
+            "library" : "KAPPER-RECORD",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 52.92366912215383,
+            "scoreError" : 0.26933533752569194,
+            "scoreConfidence" : [
+                52.65433378462814,
+                53.19300445967952
+            ],
+            "scorePercentiles" : {
+                "0.0" : 52.457110883839974,
+                "50.0" : 52.86566192167058,
+                "90.0" : 53.34437830811718,
+                "95.0" : 53.375064042353344,
+                "99.0" : 53.375064042353344,
+                "99.9" : 53.375064042353344,
+                "99.99" : 53.375064042353344,
+                "99.999" : 53.375064042353344,
+                "99.9999" : 53.375064042353344,
+                "100.0" : 53.375064042353344
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    52.855339380044796,
+                    52.6344980742518,
+                    52.851547998774,
+                    52.86548501987483,
+                    52.90765512173977
+                ],
+                [
+                    52.71549196778682,
+                    53.375064042353344,
+                    52.68517719573433,
+                    52.86566192167058,
+                    52.457110883839974
+                ],
+                [
+                    53.044276744235376,
+                    53.32392115195974,
+                    53.077686209165584,
+                    53.03819978366226,
+                    53.15792133721424
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.findById",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "POSTGRESQL",
+            "library" : "KAPPER-NO-AUTOMAP",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 52.69756904573429,
+            "scoreError" : 0.7361633534274812,
+            "scoreConfidence" : [
+                51.96140569230681,
+                53.43373239916177
+            ],
+            "scorePercentiles" : {
+                "0.0" : 52.27094799118566,
+                "50.0" : 52.53454264437115,
+                "90.0" : 53.8531750744752,
+                "95.0" : 55.103130197261905,
+                "99.0" : 55.103130197261905,
+                "99.9" : 55.103130197261905,
+                "99.99" : 55.103130197261905,
+                "99.999" : 55.103130197261905,
+                "99.9999" : 55.103130197261905,
+                "100.0" : 55.103130197261905
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    52.38451980280924,
+                    52.27094799118566,
+                    52.53454264437115,
+                    52.638145270910044,
+                    52.56104066518195
+                ],
+                [
+                    52.678812362379766,
+                    52.424396037840616,
+                    55.103130197261905,
+                    53.019871659284064,
+                    52.41555392993664
+                ],
+                [
+                    52.507949833583574,
+                    52.60818122041031,
+                    52.390005496518874,
+                    52.55344427750402,
+                    52.37299429683657
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.findById",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "POSTGRESQL",
+            "library" : "HIBERNATE",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 56.148733021824405,
+            "scoreError" : 2.8452859835712783,
+            "scoreConfidence" : [
+                53.303447038253125,
+                58.994019005395685
+            ],
+            "scorePercentiles" : {
+                "0.0" : 53.64293981123981,
+                "50.0" : 54.688686518524996,
+                "90.0" : 60.607513514522516,
+                "95.0" : 60.77369622237888,
+                "99.0" : 60.77369622237888,
+                "99.9" : 60.77369622237888,
+                "99.99" : 60.77369622237888,
+                "99.999" : 60.77369622237888,
+                "99.9999" : 60.77369622237888,
+                "100.0" : 60.77369622237888
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    60.4804371537773,
+                    60.77369622237888,
+                    60.49672504261827,
+                    58.769234412617884,
+                    57.34323917381531
+                ],
+                [
+                    55.22750668683946,
+                    55.284870449998344,
+                    54.43033413079884,
+                    54.525471101572116,
+                    54.03926717961464
+                ],
+                [
+                    54.0404090987625,
+                    54.434141756280205,
+                    54.688686518524996,
+                    54.0540365885276,
+                    53.64293981123981
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.findById",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "POSTGRESQL",
+            "library" : "KTORM",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 530.8722012813635,
+            "scoreError" : 162.90827047484763,
+            "scoreConfidence" : [
+                367.9639308065158,
+                693.7804717562111
+            ],
+            "scorePercentiles" : {
+                "0.0" : 289.96784875702616,
+                "50.0" : 514.1328213294976,
+                "90.0" : 752.026957871847,
+                "95.0" : 799.5037533940265,
+                "99.0" : 799.5037533940265,
+                "99.9" : 799.5037533940265,
+                "99.99" : 799.5037533940265,
+                "99.999" : 799.5037533940265,
+                "99.9999" : 799.5037533940265,
+                "100.0" : 799.5037533940265
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    799.5037533940265,
+                    720.3757608570606,
+                    710.4383282226008,
+                    622.9281425015557,
+                    661.2103633482968
+                ],
+                [
+                    492.6979002560063,
+                    577.3489036353145,
+                    289.96784875702616,
+                    364.6939406322844,
+                    398.31633010385985
+                ],
+                [
+                    401.6692798522444,
+                    427.5479558510185,
+                    514.1328213294976,
+                    387.0439904084158,
+                    595.207700071242
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.insertSingleRow",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "SQLITE",
+            "library" : "JDBC",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 5.083597311340967,
+            "scoreError" : 0.19325887444473624,
+            "scoreConfidence" : [
+                4.890338436896231,
+                5.276856185785704
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.8657962025636685,
+                "50.0" : 5.056130933629432,
+                "90.0" : 5.317360126827913,
+                "95.0" : 5.34120004610267,
+                "99.0" : 5.34120004610267,
+                "99.9" : 5.34120004610267,
+                "99.99" : 5.34120004610267,
+                "99.999" : 5.34120004610267,
+                "99.9999" : 5.34120004610267,
+                "100.0" : 5.34120004610267
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    4.8657962025636685,
+                    4.947298325205021,
+                    5.056130933629432,
+                    5.301466847311409,
+                    5.34120004610267
+                ],
+                [
+                    4.877673006677868,
+                    4.897672482056111,
+                    4.952196291356393,
+                    5.161776561515789,
+                    5.271134467968511
+                ],
+                [
+                    4.882383026519782,
+                    4.974231413024573,
+                    5.146068971083906,
+                    5.30131379317652,
+                    5.277617301922858
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.insertSingleRow",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "SQLITE",
+            "library" : "KAPPER",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 5.750673317141233,
+            "scoreError" : 0.19980007728929206,
+            "scoreConfidence" : [
+                5.550873239851941,
+                5.950473394430525
+            ],
+            "scorePercentiles" : {
+                "0.0" : 5.496776062862324,
+                "50.0" : 5.76787813756033,
+                "90.0" : 6.046787892306191,
+                "95.0" : 6.070374699390465,
+                "99.0" : 6.070374699390465,
+                "99.9" : 6.070374699390465,
+                "99.99" : 6.070374699390465,
+                "99.999" : 6.070374699390465,
+                "99.9999" : 6.070374699390465,
+                "100.0" : 6.070374699390465
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    5.536256192971841,
+                    5.6353576976081206,
+                    5.825076217386091,
+                    5.823349530355444,
+                    6.0310633542500085
+                ],
+                [
+                    5.525369182577566,
+                    5.585267651329395,
+                    5.7001939260802095,
+                    5.879789543805976,
+                    6.070374699390465
+                ],
+                [
+                    5.496776062862324,
+                    5.62048621449166,
+                    5.76787813756033,
+                    5.769973687335632,
+                    5.9928876591134355
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.insertSingleRow",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "SQLITE",
+            "library" : "KAPPER-RECORD",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 5.7930811170648635,
+            "scoreError" : 0.20636217534177964,
+            "scoreConfidence" : [
+                5.586718941723084,
+                5.999443292406643
+            ],
+            "scorePercentiles" : {
+                "0.0" : 5.52991114642221,
+                "50.0" : 5.767085701704536,
+                "90.0" : 6.127723932021633,
+                "95.0" : 6.161369201654892,
+                "99.0" : 6.161369201654892,
+                "99.9" : 6.161369201654892,
+                "99.99" : 6.161369201654892,
+                "99.999" : 6.161369201654892,
+                "99.9999" : 6.161369201654892,
+                "100.0" : 6.161369201654892
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    5.532477817537041,
+                    5.702262200877305,
+                    5.767085701704536,
+                    5.9474172358013675,
+                    6.105293752266126
+                ],
+                [
+                    5.639552150924175,
+                    5.67697829751035,
+                    5.727962076220955,
+                    5.819779381496048,
+                    6.161369201654892
+                ],
+                [
+                    5.52991114642221,
+                    5.645148428864677,
+                    5.7741148327844325,
+                    5.846883493000297,
+                    6.01998103890855
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.insertSingleRow",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "SQLITE",
+            "library" : "KAPPER-NO-AUTOMAP",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 5.754630848798418,
+            "scoreError" : 0.15847842913104265,
+            "scoreConfidence" : [
+                5.5961524196673755,
+                5.91310927792946
+            ],
+            "scorePercentiles" : {
+                "0.0" : 5.544984049531103,
+                "50.0" : 5.72753906250894,
+                "90.0" : 6.017620620447671,
+                "95.0" : 6.029846856154953,
+                "99.0" : 6.029846856154953,
+                "99.9" : 6.029846856154953,
+                "99.99" : 6.029846856154953,
+                "99.999" : 6.029846856154953,
+                "99.9999" : 6.029846856154953,
+                "100.0" : 6.029846856154953
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    5.611493815685914,
+                    5.826841405126593,
+                    5.72753906250894,
+                    5.818895033611989,
+                    6.009469796642817
+                ],
+                [
+                    5.544984049531103,
+                    5.606665067883848,
+                    5.641603891704962,
+                    5.723907772147527,
+                    5.915151041894426
+                ],
+                [
+                    5.617321734503618,
+                    5.677105349063693,
+                    5.737183679809965,
+                    5.831454175705938,
+                    6.029846856154953
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.insertSingleRow",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "SQLITE",
+            "library" : "HIBERNATE",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 30.58885547349308,
+            "scoreError" : 5.225878142776768,
+            "scoreConfidence" : [
+                25.362977330716312,
+                35.81473361626985
+            ],
+            "scorePercentiles" : {
+                "0.0" : 21.947499910018653,
+                "50.0" : 31.28137014658652,
+                "90.0" : 36.10440815083342,
+                "95.0" : 36.84444546726563,
+                "99.0" : 36.84444546726563,
+                "99.9" : 36.84444546726563,
+                "99.99" : 36.84444546726563,
+                "99.999" : 36.84444546726563,
+                "99.9999" : 36.84444546726563,
+                "100.0" : 36.84444546726563
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    22.40575010522168,
+                    29.826946355949385,
+                    32.26873856107961,
+                    34.26786162410896,
+                    36.84444546726563
+                ],
+                [
+                    21.947499910018653,
+                    29.472764403334608,
+                    30.935569281672283,
+                    33.73475350136277,
+                    34.871937258754514
+                ],
+                [
+                    21.97418301586744,
+                    30.136126131279617,
+                    31.28137014658652,
+                    33.253836400015956,
+                    35.61104993987862
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.insertSingleRow",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "SQLITE",
+            "library" : "KTORM",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 307.0493882661639,
+            "scoreError" : 221.47351223942292,
+            "scoreConfidence" : [
+                85.57587602674096,
+                528.5229005055868
+            ],
+            "scorePercentiles" : {
+                "0.0" : 94.49062223480558,
+                "50.0" : 277.4957138783791,
+                "90.0" : 655.0566091884349,
+                "95.0" : 668.6152531786199,
+                "99.0" : 668.6152531786199,
+                "99.9" : 668.6152531786199,
+                "99.99" : 668.6152531786199,
+                "99.999" : 668.6152531786199,
+                "99.9999" : 668.6152531786199,
+                "100.0" : 668.6152531786199
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    97.88100465571205,
+                    94.49062223480558,
+                    97.87608905650134,
+                    99.29893819689696,
+                    97.11639772418346
+                ],
+                [
+                    223.60224373302464,
+                    288.61870711031656,
+                    277.4957138783791,
+                    296.1217683251494,
+                    407.8659870213107
+                ],
+                [
+                    268.93654897959186,
+                    411.5281389549668,
+                    646.0175131949783,
+                    668.6152531786199,
+                    630.2758977480219
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.insertSingleRow",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "POSTGRESQL",
+            "library" : "JDBC",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 54.28453428727573,
+            "scoreError" : 0.44948560167523555,
+            "scoreConfidence" : [
+                53.8350486856005,
+                54.73401988895097
+            ],
+            "scorePercentiles" : {
+                "0.0" : 53.52495454788514,
+                "50.0" : 54.25175703172402,
+                "90.0" : 54.963078027649786,
+                "95.0" : 55.10940889818843,
+                "99.0" : 55.10940889818843,
+                "99.9" : 55.10940889818843,
+                "99.99" : 55.10940889818843,
+                "99.999" : 55.10940889818843,
+                "99.9999" : 55.10940889818843,
+                "100.0" : 55.10940889818843
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    53.52495454788514,
+                    54.37047174650091,
+                    54.25175703172402,
+                    54.36936885557547,
+                    54.684040036277416
+                ],
+                [
+                    53.917434583921626,
+                    53.77637081043882,
+                    54.1050169220116,
+                    54.064265868470535,
+                    54.86552411395736
+                ],
+                [
+                    53.96938591096437,
+                    54.40519497340975,
+                    54.232150016253115,
+                    54.62266999355733,
+                    55.10940889818843
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.insertSingleRow",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "POSTGRESQL",
+            "library" : "KAPPER",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 55.487022489574805,
+            "scoreError" : 0.6601177181466634,
+            "scoreConfidence" : [
+                54.82690477142814,
+                56.14714020772147
+            ],
+            "scorePercentiles" : {
+                "0.0" : 54.59259728995516,
+                "50.0" : 55.357871044505195,
+                "90.0" : 56.465667814309974,
+                "95.0" : 57.173284177432265,
+                "99.0" : 57.173284177432265,
+                "99.9" : 57.173284177432265,
+                "99.99" : 57.173284177432265,
+                "99.999" : 57.173284177432265,
+                "99.9999" : 57.173284177432265,
+                "100.0" : 57.173284177432265
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    54.83873587841466,
+                    55.45024325373068,
+                    55.33363505207067,
+                    55.04644406899057,
+                    55.38586648070047
+                ],
+                [
+                    55.96530962820456,
+                    57.173284177432265,
+                    55.357871044505195,
+                    55.99392357222845,
+                    55.555548611805484
+                ],
+                [
+                    54.59259728995516,
+                    55.353409329407334,
+                    55.226029127070845,
+                    55.04181710310515,
+                    55.99062272600056
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.insertSingleRow",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "POSTGRESQL",
+            "library" : "KAPPER-RECORD",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 55.2949189004403,
+            "scoreError" : 0.34638121291308416,
+            "scoreConfidence" : [
+                54.948537687527214,
+                55.64130011335339
+            ],
+            "scorePercentiles" : {
+                "0.0" : 54.623607777170946,
+                "50.0" : 55.27794190733889,
+                "90.0" : 55.74906696734084,
+                "95.0" : 55.75324398368911,
+                "99.0" : 55.75324398368911,
+                "99.9" : 55.75324398368911,
+                "99.99" : 55.75324398368911,
+                "99.999" : 55.75324398368911,
+                "99.9999" : 55.75324398368911,
+                "100.0" : 55.75324398368911
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    55.06625220070423,
+                    55.250819798831856,
+                    55.59601841669721,
+                    55.42014181137592,
+                    55.22647348560079
+                ],
+                [
+                    55.27794190733889,
+                    55.43905959134828,
+                    55.74628228977532,
+                    55.25038392699311,
+                    55.75324398368911
+                ],
+                [
+                    54.623607777170946,
+                    54.809520284409,
+                    55.335838428285555,
+                    55.01499116592224,
+                    55.61320843846214
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.insertSingleRow",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "POSTGRESQL",
+            "library" : "KAPPER-NO-AUTOMAP",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 55.36573853745426,
+            "scoreError" : 0.40406207122714866,
+            "scoreConfidence" : [
+                54.96167646622711,
+                55.769800608681415
+            ],
+            "scorePercentiles" : {
+                "0.0" : 54.886972968226964,
+                "50.0" : 55.192123849667865,
+                "90.0" : 56.059224579255,
+                "95.0" : 56.09025442666308,
+                "99.0" : 56.09025442666308,
+                "99.9" : 56.09025442666308,
+                "99.99" : 56.09025442666308,
+                "99.999" : 56.09025442666308,
+                "99.9999" : 56.09025442666308,
+                "100.0" : 56.09025442666308
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    55.18142478901208,
+                    55.531784133926884,
+                    55.127760849685444,
+                    55.0140873765045,
+                    55.81507280215181
+                ],
+                [
+                    55.021644075808545,
+                    55.19053937989628,
+                    55.03653884893669,
+                    54.886972968226964,
+                    55.302930496767424
+                ],
+                [
+                    55.57856395665463,
+                    55.47784209359551,
+                    55.192123849667865,
+                    56.03853801431628,
+                    56.09025442666308
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.insertSingleRow",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "POSTGRESQL",
+            "library" : "HIBERNATE",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 165.83194708285012,
+            "scoreError" : 0.6313719116197021,
+            "scoreConfidence" : [
+                165.2005751712304,
+                166.46331899446983
+            ],
+            "scorePercentiles" : {
+                "0.0" : 164.8729780774049,
+                "50.0" : 165.65759208216002,
+                "90.0" : 166.81941032279224,
+                "95.0" : 166.83493881567972,
+                "99.0" : 166.83493881567972,
+                "99.9" : 166.83493881567972,
+                "99.99" : 166.83493881567972,
+                "99.999" : 166.83493881567972,
+                "99.9999" : 166.83493881567972,
+                "100.0" : 166.83493881567972
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    165.40492538003966,
+                    165.65759208216002,
+                    165.64002324041581,
+                    165.6572291804581,
+                    166.80905799420057
+                ],
+                [
+                    165.6281323446655,
+                    166.2612535052163,
+                    166.437769622359,
+                    164.8920090268169,
+                    164.8729780774049
+                ],
+                [
+                    165.41859235016034,
+                    165.9694509634838,
+                    166.83493881567972,
+                    165.96939359267733,
+                    166.0258600670139
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.insertSingleRow",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "POSTGRESQL",
+            "library" : "KTORM",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 438.6460678810702,
+            "scoreError" : 267.30001266266777,
+            "scoreConfidence" : [
+                171.34605521840246,
+                705.9460805437379
+            ],
+            "scorePercentiles" : {
+                "0.0" : 146.69705054532662,
+                "50.0" : 376.61480147612593,
+                "90.0" : 872.3200919292163,
+                "95.0" : 1102.7081311728396,
+                "99.0" : 1102.7081311728396,
+                "99.9" : 1102.7081311728396,
+                "99.99" : 1102.7081311728396,
+                "99.999" : 1102.7081311728396,
+                "99.9999" : 1102.7081311728396,
+                "100.0" : 1102.7081311728396
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    363.6888373682297,
+                    395.9187511279981,
+                    411.3022040766006,
+                    372.8763377532777,
+                    376.61480147612593
+                ],
+                [
+                    575.005460089583,
+                    718.7280657668007,
+                    707.278822724065,
+                    1102.7081311728396,
+                    443.5320055796652
+                ],
+                [
+                    146.69705054532662,
+                    247.41106030647552,
+                    295.0796879495343,
+                    250.0372331901289,
+                    172.81256908940168
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.simpleJoin",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "SQLITE",
+            "library" : "JDBC",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 6.736374362112417,
+            "scoreError" : 0.1404740474730636,
+            "scoreConfidence" : [
+                6.595900314639353,
+                6.876848409585481
+            ],
+            "scorePercentiles" : {
+                "0.0" : 6.600731330803795,
+                "50.0" : 6.677556431556307,
+                "90.0" : 6.95893053481121,
+                "95.0" : 7.01075903131772,
+                "99.0" : 7.01075903131772,
+                "99.9" : 7.01075903131772,
+                "99.99" : 7.01075903131772,
+                "99.999" : 7.01075903131772,
+                "99.9999" : 7.01075903131772,
+                "100.0" : 7.01075903131772
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    6.846464081403624,
+                    6.92437820380687,
+                    6.727030724221475,
+                    6.8679532190066315,
+                    6.8714123694339815
+                ],
+                [
+                    7.01075903131772,
+                    6.679685472987854,
+                    6.6217654887283715,
+                    6.6621980973810695,
+                    6.614026659564851
+                ],
+                [
+                    6.677556431556307,
+                    6.600731330803795,
+                    6.648324369060239,
+                    6.626576311858373,
+                    6.666753640555084
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.simpleJoin",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "SQLITE",
+            "library" : "KAPPER",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 11.006068689509924,
+            "scoreError" : 0.06539556132553176,
+            "scoreConfidence" : [
+                10.940673128184391,
+                11.071464250835456
+            ],
+            "scorePercentiles" : {
+                "0.0" : 10.926594161604685,
+                "50.0" : 10.999451397740758,
+                "90.0" : 11.126606795375961,
+                "95.0" : 11.146316679734136,
+                "99.0" : 11.146316679734136,
+                "99.9" : 11.146316679734136,
+                "99.99" : 11.146316679734136,
+                "99.999" : 11.146316679734136,
+                "99.9999" : 11.146316679734136,
+                "100.0" : 11.146316679734136
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    11.113466872470513,
+                    10.976776248494303,
+                    11.03720241707845,
+                    11.014153303485742,
+                    11.004558365026957
+                ],
+                [
+                    11.146316679734136,
+                    11.037090267927068,
+                    11.017258438172908,
+                    10.999451397740758,
+                    10.943504128615956
+                ],
+                [
+                    10.933546132864748,
+                    10.991307753807497,
+                    10.990803522996545,
+                    10.959000652628582,
+                    10.926594161604685
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.simpleJoin",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "SQLITE",
+            "library" : "KAPPER-RECORD",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 10.119949665010672,
+            "scoreError" : 0.0949594054867756,
+            "scoreConfidence" : [
+                10.024990259523896,
+                10.214909070497448
+            ],
+            "scorePercentiles" : {
+                "0.0" : 9.983314564265024,
+                "50.0" : 10.088491965169965,
+                "90.0" : 10.255545192260028,
+                "95.0" : 10.31948359009674,
+                "99.0" : 10.31948359009674,
+                "99.9" : 10.31948359009674,
+                "99.99" : 10.31948359009674,
+                "99.999" : 10.31948359009674,
+                "99.9999" : 10.31948359009674,
+                "100.0" : 10.31948359009674
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    10.0439839847757,
+                    9.983314564265024,
+                    10.03949707555404,
+                    10.059105363753662,
+                    10.03017695798225
+                ],
+                [
+                    10.183618649208734,
+                    10.31948359009674,
+                    10.192968460667014,
+                    10.212919593702221,
+                    10.169231777501402
+                ],
+                [
+                    10.126543091181787,
+                    10.182173012950285,
+                    10.088491965169965,
+                    10.085434093936469,
+                    10.082302794414797
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.simpleJoin",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "SQLITE",
+            "library" : "KAPPER-NO-AUTOMAP",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 9.77362707461759,
+            "scoreError" : 0.0837060062721875,
+            "scoreConfidence" : [
+                9.689921068345402,
+                9.857333080889777
+            ],
+            "scorePercentiles" : {
+                "0.0" : 9.673915007992948,
+                "50.0" : 9.756340765132153,
+                "90.0" : 9.870513134730297,
+                "95.0" : 9.874926506566071,
+                "99.0" : 9.874926506566071,
+                "99.9" : 9.874926506566071,
+                "99.99" : 9.874926506566071,
+                "99.999" : 9.874926506566071,
+                "99.9999" : 9.874926506566071,
+                "100.0" : 9.874926506566071
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    9.692203137324825,
+                    9.861652767457125,
+                    9.77257546676041,
+                    9.756340765132153,
+                    9.755300410977064
+                ],
+                [
+                    9.829400417520954,
+                    9.856253629013192,
+                    9.867570886839781,
+                    9.86715261114649,
+                    9.874926506566071
+                ],
+                [
+                    9.711042129936859,
+                    9.6975676646196,
+                    9.673915007992948,
+                    9.674272603740615,
+                    9.714232114235758
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.simpleJoin",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "SQLITE",
+            "library" : "HIBERNATE",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 18.725621992089245,
+            "scoreError" : 0.15334370125198565,
+            "scoreConfidence" : [
+                18.57227829083726,
+                18.87896569334123
+            ],
+            "scorePercentiles" : {
+                "0.0" : 18.52233543163138,
+                "50.0" : 18.749536783771227,
+                "90.0" : 18.92799402416344,
+                "95.0" : 19.048669918210294,
+                "99.0" : 19.048669918210294,
+                "99.9" : 19.048669918210294,
+                "99.99" : 19.048669918210294,
+                "99.999" : 19.048669918210294,
+                "99.9999" : 19.048669918210294,
+                "100.0" : 19.048669918210294
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    18.68632836205448,
+                    18.52233543163138,
+                    18.535949845270082,
+                    18.535369196459992,
+                    18.58167098240649
+                ],
+                [
+                    18.796939485059198,
+                    18.77534411187678,
+                    18.749536783771227,
+                    19.048669918210294,
+                    18.7647580025128
+                ],
+                [
+                    18.65762423132717,
+                    18.847543428132205,
+                    18.744527635743854,
+                    18.841468626048997,
+                    18.7962638408337
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.simpleJoin",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "SQLITE",
+            "library" : "KTORM",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 707.503557761614,
+            "scoreError" : 166.83826198165983,
+            "scoreConfidence" : [
+                540.6652957799542,
+                874.3418197432738
+            ],
+            "scorePercentiles" : {
+                "0.0" : 530.8991683352256,
+                "50.0" : 648.0815489583333,
+                "90.0" : 988.0258116190756,
+                "95.0" : 991.8932906957797,
+                "99.0" : 991.8932906957797,
+                "99.9" : 991.8932906957797,
+                "99.99" : 991.8932906957797,
+                "99.999" : 991.8932906957797,
+                "99.9999" : 991.8932906957797,
+                "100.0" : 991.8932906957797
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    985.4474922346062,
+                    608.3777439024391,
+                    648.0815489583333,
+                    918.3174085176385,
+                    750.6202370065322
+                ],
+                [
+                    609.0581635987365,
+                    696.7446230907998,
+                    644.4672418229918,
+                    562.3840015252206,
+                    640.5443622858512
+                ],
+                [
+                    843.5142483628813,
+                    650.5547693585485,
+                    530.8991683352256,
+                    531.6490667286246,
+                    991.8932906957797
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.simpleJoin",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "POSTGRESQL",
+            "library" : "JDBC",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 91.81242794691322,
+            "scoreError" : 0.5398548944611011,
+            "scoreConfidence" : [
+                91.27257305245212,
+                92.35228284137432
+            ],
+            "scorePercentiles" : {
+                "0.0" : 91.03417808867138,
+                "50.0" : 91.72651452662451,
+                "90.0" : 92.62318768196839,
+                "95.0" : 93.22514011444761,
+                "99.0" : 93.22514011444761,
+                "99.9" : 93.22514011444761,
+                "99.99" : 93.22514011444761,
+                "99.999" : 93.22514011444761,
+                "99.9999" : 93.22514011444761,
+                "100.0" : 93.22514011444761
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    91.76780082873435,
+                    91.82468077494633,
+                    91.37712917541776,
+                    91.6040228990866,
+                    91.57758080512352
+                ],
+                [
+                    92.22188606031558,
+                    91.99373690401794,
+                    91.6198459270923,
+                    91.72651452662451,
+                    92.09371165881313
+                ],
+                [
+                    92.16134966026479,
+                    91.5528461115993,
+                    91.03417808867138,
+                    91.40599566854303,
+                    93.22514011444761
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.simpleJoin",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "POSTGRESQL",
+            "library" : "KAPPER",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 98.41943939205176,
+            "scoreError" : 0.4819009735448431,
+            "scoreConfidence" : [
+                97.93753841850692,
+                98.9013403655966
+            ],
+            "scorePercentiles" : {
+                "0.0" : 97.69627454886337,
+                "50.0" : 98.25946280033791,
+                "90.0" : 99.20029995772754,
+                "95.0" : 99.3710234719409,
+                "99.0" : 99.3710234719409,
+                "99.9" : 99.3710234719409,
+                "99.99" : 99.3710234719409,
+                "99.999" : 99.3710234719409,
+                "99.9999" : 99.3710234719409,
+                "100.0" : 99.3710234719409
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    99.3710234719409,
+                    98.58802643501556,
+                    98.64841245466015,
+                    98.25946280033791,
+                    98.77592478635852
+                ],
+                [
+                    98.59288670882336,
+                    98.1369822717289,
+                    99.0864842815853,
+                    98.02758677167823,
+                    97.69627454886337
+                ],
+                [
+                    98.67484290953546,
+                    98.18556036173885,
+                    98.17142587431802,
+                    98.07332842724155,
+                    98.00336877695021
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.simpleJoin",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "POSTGRESQL",
+            "library" : "KAPPER-RECORD",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 95.06616830818574,
+            "scoreError" : 0.46775411623417007,
+            "scoreConfidence" : [
+                94.59841419195156,
+                95.53392242441991
+            ],
+            "scorePercentiles" : {
+                "0.0" : 94.55645973211418,
+                "50.0" : 94.91841483631121,
+                "90.0" : 95.76831964658669,
+                "95.0" : 96.2291314261545,
+                "99.0" : 96.2291314261545,
+                "99.9" : 96.2291314261545,
+                "99.99" : 96.2291314261545,
+                "99.999" : 96.2291314261545,
+                "99.9999" : 96.2291314261545,
+                "100.0" : 96.2291314261545
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    94.90495502123787,
+                    94.55645973211418,
+                    95.0481897959959,
+                    94.70593387835434,
+                    94.69912262044431
+                ],
+                [
+                    96.2291314261545,
+                    95.46111179354149,
+                    94.78734793477643,
+                    94.67150689726948,
+                    94.75291735161547
+                ],
+                [
+                    95.2598214108958,
+                    95.22538844265104,
+                    95.39059441012735,
+                    95.38162907129653,
+                    94.91841483631121
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.simpleJoin",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "POSTGRESQL",
+            "library" : "KAPPER-NO-AUTOMAP",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 94.18447492731204,
+            "scoreError" : 0.4315881273298476,
+            "scoreConfidence" : [
+                93.75288679998219,
+                94.61606305464188
+            ],
+            "scorePercentiles" : {
+                "0.0" : 93.57545466783837,
+                "50.0" : 94.10626201981836,
+                "90.0" : 94.8486711573916,
+                "95.0" : 94.90566095877422,
+                "99.0" : 94.90566095877422,
+                "99.9" : 94.90566095877422,
+                "99.99" : 94.90566095877422,
+                "99.999" : 94.90566095877422,
+                "99.9999" : 94.90566095877422,
+                "100.0" : 94.90566095877422
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    94.00294337071054,
+                    94.55023141588741,
+                    94.90566095877422,
+                    94.0120956253874,
+                    94.10626201981836
+                ],
+                [
+                    94.11911917166664,
+                    94.1193317097939,
+                    93.74024988760678,
+                    93.83970158069415,
+                    93.57545466783837
+                ],
+                [
+                    94.57157518477213,
+                    93.94279775006574,
+                    94.81067795646986,
+                    94.59455712529551,
+                    93.87646548489964
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.simpleJoin",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "POSTGRESQL",
+            "library" : "HIBERNATE",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 167.66741050188995,
+            "scoreError" : 1.3904790797052258,
+            "scoreConfidence" : [
+                166.27693142218473,
+                169.05788958159516
+            ],
+            "scorePercentiles" : {
+                "0.0" : 165.39519787845742,
+                "50.0" : 167.42334069316206,
+                "90.0" : 169.5161349798579,
+                "95.0" : 171.327612432821,
+                "99.0" : 171.327612432821,
+                "99.9" : 171.327612432821,
+                "99.99" : 171.327612432821,
+                "99.999" : 171.327612432821,
+                "99.9999" : 171.327612432821,
+                "100.0" : 171.327612432821
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    168.30224100235452,
+                    167.42334069316206,
+                    166.76259754552123,
+                    166.15082107289868,
+                    165.39519787845742
+                ],
+                [
+                    171.327612432821,
+                    167.94654144573462,
+                    168.02562432387032,
+                    167.94904362416108,
+                    167.3241755875765
+                ],
+                [
+                    168.2067644309968,
+                    167.25540662499583,
+                    167.42025422311423,
+                    168.30848334454913,
+                    167.2130532981354
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.simpleJoin",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "POSTGRESQL",
+            "library" : "KTORM",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 726.0861950405113,
+            "scoreError" : 141.0807756510706,
+            "scoreConfidence" : [
+                585.0054193894407,
+                867.1669706915818
+            ],
+            "scorePercentiles" : {
+                "0.0" : 521.7921195430058,
+                "50.0" : 708.8977639707947,
+                "90.0" : 916.591389028521,
+                "95.0" : 966.0809447983015,
+                "99.0" : 966.0809447983015,
+                "99.9" : 966.0809447983015,
+                "99.99" : 966.0809447983015,
+                "99.999" : 966.0809447983015,
+                "99.9999" : 966.0809447983015,
+                "100.0" : 966.0809447983015
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    883.5983518486672,
+                    609.728099278192,
+                    801.7696461776062,
+                    606.0856941441976,
+                    549.7866659125189
+                ],
+                [
+                    966.0809447983015,
+                    628.2692630877364,
+                    727.0169955068801,
+                    861.7862955715757,
+                    708.8977639707947
+                ],
+                [
+                    673.6088002413192,
+                    778.6143363104404,
+                    704.4330036604251,
+                    521.7921195430058,
+                    869.8249455560093
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.updateSingleRow",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "SQLITE",
+            "library" : "JDBC",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 2.1807858198010512,
+            "scoreError" : 0.021956978719358946,
+            "scoreConfidence" : [
+                2.1588288410816925,
+                2.20274279852041
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.151731195154505,
+                "50.0" : 2.1743686841654815,
+                "90.0" : 2.2187340732168717,
+                "95.0" : 2.2191249769984114,
+                "99.0" : 2.2191249769984114,
+                "99.9" : 2.2191249769984114,
+                "99.99" : 2.2191249769984114,
+                "99.999" : 2.2191249769984114,
+                "99.9999" : 2.2191249769984114,
+                "100.0" : 2.2191249769984114
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    2.218473470695845,
+                    2.1872555554875226,
+                    2.151731195154505,
+                    2.1657930122625744,
+                    2.173602924171844
+                ],
+                [
+                    2.193615339245198,
+                    2.2191249769984114,
+                    2.198147087668813,
+                    2.1921404716470323,
+                    2.1811285875372164
+                ],
+                [
+                    2.172222362107371,
+                    2.1635826424986946,
+                    2.1623240051317927,
+                    2.1582769822434673,
+                    2.1743686841654815
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.updateSingleRow",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "SQLITE",
+            "library" : "KAPPER",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 3.0263083472747705,
+            "scoreError" : 0.02508558940337669,
+            "scoreConfidence" : [
+                3.001222757871394,
+                3.051393936678147
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.9904844623518416,
+                "50.0" : 3.0213293432088864,
+                "90.0" : 3.071876238137609,
+                "95.0" : 3.0743412375003762,
+                "99.0" : 3.0743412375003762,
+                "99.9" : 3.0743412375003762,
+                "99.99" : 3.0743412375003762,
+                "99.999" : 3.0743412375003762,
+                "99.9999" : 3.0743412375003762,
+                "100.0" : 3.0743412375003762
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    3.049684874964028,
+                    2.9904844623518416,
+                    3.01355880857728,
+                    3.0086489428785947,
+                    2.9969663837754443
+                ],
+                [
+                    3.0279539483161657,
+                    3.028560030113701,
+                    3.017355516925859,
+                    3.0743412375003762,
+                    3.0298769453656917
+                ],
+                [
+                    3.070232905229097,
+                    3.0301446725027574,
+                    3.0209025163232552,
+                    3.0213293432088864,
+                    3.014584621088581
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.updateSingleRow",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "SQLITE",
+            "library" : "KAPPER-RECORD",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 2.9849625965873887,
+            "scoreError" : 0.032990940643880536,
+            "scoreConfidence" : [
+                2.9519716559435083,
+                3.017953537231269
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.9435976703985163,
+                "50.0" : 2.9755443345565413,
+                "90.0" : 3.0294345343578444,
+                "95.0" : 3.02969038572244,
+                "99.0" : 3.02969038572244,
+                "99.9" : 3.02969038572244,
+                "99.99" : 3.02969038572244,
+                "99.999" : 3.02969038572244,
+                "99.9999" : 3.02969038572244,
+                "100.0" : 3.02969038572244
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    2.9435976703985163,
+                    2.9695726475739628,
+                    2.9560253661498765,
+                    2.948266303803406,
+                    2.961312945155589
+                ],
+                [
+                    2.992505043117368,
+                    2.968245093484974,
+                    2.9509234413323724,
+                    3.0163203863074792,
+                    2.9755443345565413
+                ],
+                [
+                    3.029263966781447,
+                    3.02969038572244,
+                    3.0165133460510334,
+                    3.004887829879009,
+                    3.0117701884968118
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.updateSingleRow",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "SQLITE",
+            "library" : "KAPPER-NO-AUTOMAP",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 3.0694232546686027,
+            "scoreError" : 0.0878442371324177,
+            "scoreConfidence" : [
+                2.981579017536185,
+                3.1572674918010204
+            ],
+            "scorePercentiles" : {
+                "0.0" : 2.95994483931437,
+                "50.0" : 3.060971719254871,
+                "90.0" : 3.224577950286831,
+                "95.0" : 3.2278136705207534,
+                "99.0" : 3.2278136705207534,
+                "99.9" : 3.2278136705207534,
+                "99.99" : 3.2278136705207534,
+                "99.999" : 3.2278136705207534,
+                "99.9999" : 3.2278136705207534,
+                "100.0" : 3.2278136705207534
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    2.95994483931437,
+                    3.222420803464216,
+                    2.9616304158022,
+                    2.9618571436185586,
+                    3.0911539426143584
+                ],
+                [
+                    3.0629735812612155,
+                    3.0365536445606023,
+                    3.2278136705207534,
+                    3.060971719254871,
+                    3.05176830198946
+                ],
+                [
+                    3.0619463441501815,
+                    3.11950871307154,
+                    3.13843486922785,
+                    3.0479481639060837,
+                    3.0364226672727814
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.updateSingleRow",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "SQLITE",
+            "library" : "HIBERNATE",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 11.900468306054048,
+            "scoreError" : 0.232026027397831,
+            "scoreConfidence" : [
+                11.668442278656217,
+                12.132494333451879
+            ],
+            "scorePercentiles" : {
+                "0.0" : 11.64938344136259,
+                "50.0" : 11.846969864531232,
+                "90.0" : 12.303676212423502,
+                "95.0" : 12.361433432036689,
+                "99.0" : 12.361433432036689,
+                "99.9" : 12.361433432036689,
+                "99.99" : 12.361433432036689,
+                "99.999" : 12.361433432036689,
+                "99.9999" : 12.361433432036689,
+                "100.0" : 12.361433432036689
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    11.880677901608212,
+                    11.836706312287642,
+                    11.932504922308825,
+                    12.193216424204603,
+                    12.361433432036689
+                ],
+                [
+                    11.893130596367664,
+                    12.265171399348045,
+                    11.73404844921241,
+                    11.681638562259307,
+                    11.97610416267851
+                ],
+                [
+                    11.685412205394874,
+                    11.822445624194863,
+                    11.74818129301522,
+                    11.846969864531232,
+                    11.64938344136259
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.updateSingleRow",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "SQLITE",
+            "library" : "KTORM",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 654.8590520692305,
+            "scoreError" : 148.63325774757928,
+            "scoreConfidence" : [
+                506.2257943216513,
+                803.4923098168098
+            ],
+            "scorePercentiles" : {
+                "0.0" : 407.2266897363823,
+                "50.0" : 645.2616269711114,
+                "90.0" : 870.4842706447363,
+                "95.0" : 987.376087657106,
+                "99.0" : 987.376087657106,
+                "99.9" : 987.376087657106,
+                "99.99" : 987.376087657106,
+                "99.999" : 987.376087657106,
+                "99.9999" : 987.376087657106,
+                "100.0" : 987.376087657106
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    555.7817679437209,
+                    593.9298969333875,
+                    987.376087657106,
+                    792.5563926364897,
+                    605.7991266375545
+                ],
+                [
+                    726.6490963855422,
+                    673.3966943904651,
+                    540.9253167753191,
+                    762.6635636280904,
+                    712.2821158690176
+                ],
+                [
+                    624.0395358612948,
+                    490.7005217868913,
+                    407.2266897363823,
+                    645.2616269711114,
+                    704.2973478260869
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.updateSingleRow",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "POSTGRESQL",
+            "library" : "JDBC",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 706.0491116403688,
+            "scoreError" : 125.21601533677132,
+            "scoreConfidence" : [
+                580.8330963035975,
+                831.2651269771401
+            ],
+            "scorePercentiles" : {
+                "0.0" : 528.575895965357,
+                "50.0" : 709.4456810320386,
+                "90.0" : 860.9324093337652,
+                "95.0" : 865.1580421926336,
+                "99.0" : 865.1580421926336,
+                "99.9" : 865.1580421926336,
+                "99.99" : 865.1580421926336,
+                "99.999" : 865.1580421926336,
+                "99.9999" : 865.1580421926336,
+                "100.0" : 865.1580421926336
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    541.6872496481542,
+                    619.8438338080496,
+                    701.0098241804427,
+                    812.7751745980186,
+                    865.1580421926336
+                ],
+                [
+                    528.575895965357,
+                    644.1245654133402,
+                    717.7991353329506,
+                    792.3395695280329,
+                    858.1153207611864
+                ],
+                [
+                    537.4145085966044,
+                    646.8732812621233,
+                    709.4456810320386,
+                    774.6725684210527,
+                    840.9020238655462
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.updateSingleRow",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "POSTGRESQL",
+            "library" : "KAPPER",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 728.093027999171,
+            "scoreError" : 142.78580393586793,
+            "scoreConfidence" : [
+                585.307224063303,
+                870.878831935039
+            ],
+            "scorePercentiles" : {
+                "0.0" : 539.2001589953649,
+                "50.0" : 716.1844266704821,
+                "90.0" : 916.5831982403973,
+                "95.0" : 965.4129614197531,
+                "99.0" : 965.4129614197531,
+                "99.9" : 965.4129614197531,
+                "99.99" : 965.4129614197531,
+                "99.999" : 965.4129614197531,
+                "99.9999" : 965.4129614197531,
+                "100.0" : 965.4129614197531
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    560.1684245747538,
+                    641.8367315978456,
+                    705.9841648320632,
+                    797.6932843481032,
+                    884.0300227874934
+                ],
+                [
+                    539.2001589953649,
+                    636.458317510817,
+                    725.0722451108214,
+                    784.4462233892459,
+                    880.5189600563083
+                ],
+                [
+                    559.1061948139042,
+                    647.4187316252588,
+                    716.1844266704821,
+                    877.864572255349,
+                    965.4129614197531
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.updateSingleRow",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "POSTGRESQL",
+            "library" : "KAPPER-RECORD",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 724.8771160001809,
+            "scoreError" : 128.3644069022263,
+            "scoreConfidence" : [
+                596.5127090979546,
+                853.2415229024072
+            ],
+            "scorePercentiles" : {
+                "0.0" : 533.9706203990185,
+                "50.0" : 727.2579760174418,
+                "90.0" : 871.8259181613134,
+                "95.0" : 906.2950157494569,
+                "99.0" : 906.2950157494569,
+                "99.9" : 906.2950157494569,
+                "99.99" : 906.2950157494569,
+                "99.999" : 906.2950157494569,
+                "99.9999" : 906.2950157494569,
+                "100.0" : 906.2950157494569
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    561.2946351396836,
+                    780.6745254290172,
+                    719.2789912343727,
+                    841.2065059653839,
+                    906.2950157494569
+                ],
+                [
+                    533.9706203990185,
+                    625.1514380857178,
+                    706.4821143744705,
+                    793.9735947017766,
+                    848.8465197692177
+                ],
+                [
+                    547.5083980741875,
+                    638.9168847873292,
+                    727.2579760174418,
+                    796.3441726332538,
+                    845.9553476423863
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.updateSingleRow",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "POSTGRESQL",
+            "library" : "KAPPER-NO-AUTOMAP",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 706.7325334394334,
+            "scoreError" : 123.08961576385417,
+            "scoreConfidence" : [
+                583.6429176755792,
+                829.8221492032876
+            ],
+            "scorePercentiles" : {
+                "0.0" : 535.4906945960406,
+                "50.0" : 714.1025040685225,
+                "90.0" : 854.5905354431919,
+                "95.0" : 862.9635480089639,
+                "99.0" : 862.9635480089639,
+                "99.9" : 862.9635480089639,
+                "99.99" : 862.9635480089639,
+                "99.999" : 862.9635480089639,
+                "99.9999" : 862.9635480089639,
+                "100.0" : 862.9635480089639
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    545.0286248094097,
+                    637.2291719745223,
+                    714.1025040685225,
+                    788.5260901497242,
+                    862.9635480089639
+                ],
+                [
+                    537.5012446808511,
+                    628.6855579145729,
+                    733.5097333040421,
+                    786.335316889238,
+                    849.0085270660105
+                ],
+                [
+                    535.4906945960406,
+                    632.5843710493047,
+                    712.7060545506338,
+                    791.0478741103907,
+                    846.2686884192731
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.updateSingleRow",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "POSTGRESQL",
+            "library" : "HIBERNATE",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 168.47413163376783,
+            "scoreError" : 1.5446293991272342,
+            "scoreConfidence" : [
+                166.92950223464058,
+                170.01876103289507
+            ],
+            "scorePercentiles" : {
+                "0.0" : 166.21922866066384,
+                "50.0" : 168.39930964808892,
+                "90.0" : 170.78008530023695,
+                "95.0" : 171.1682632659345,
+                "99.0" : 171.1682632659345,
+                "99.9" : 171.1682632659345,
+                "99.99" : 171.1682632659345,
+                "99.999" : 171.1682632659345,
+                "99.9999" : 171.1682632659345,
+                "100.0" : 171.1682632659345
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    167.37347010433388,
+                    167.9199545073305,
+                    169.97404347234968,
+                    168.39930964808892,
+                    168.80430016863406
+                ],
+                [
+                    169.72365379263533,
+                    166.66079658871345,
+                    169.16022281929096,
+                    166.21922866066384,
+                    166.78008302213922
+                ],
+                [
+                    168.2636215297641,
+                    170.5212999897719,
+                    168.42644955579485,
+                    167.7172773810721,
+                    171.1682632659345
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "net.samyn.kapper.benchmark.KapperBenchmark.updateSingleRow",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 3,
+        "jvm" : "/opt/homebrew/Cellar/sdkman-cli/5.18.2/libexec/candidates/java/21.0.5-zulu/zulu-21.jdk/Contents/Home/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "21.0.5",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.5+11-LTS",
+        "warmupIterations" : 5,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "5 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "databaseType" : "POSTGRESQL",
+            "library" : "KTORM",
+            "rows" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 896.0523585354798,
+            "scoreError" : 119.34795009982994,
+            "scoreConfidence" : [
+                776.7044084356498,
+                1015.4003086353098
+            ],
+            "scorePercentiles" : {
+                "0.0" : 718.3276285878301,
+                "50.0" : 903.9202109445548,
+                "90.0" : 1064.321975813262,
+                "95.0" : 1092.6915173618695,
+                "99.0" : 1092.6915173618695,
+                "99.9" : 1092.6915173618695,
+                "99.99" : 1092.6915173618695,
+                "99.999" : 1092.6915173618695,
+                "99.9999" : 1092.6915173618695,
+                "100.0" : 1092.6915173618695
+            },
+            "scoreUnit" : "us/op",
+            "rawData" : [
+                [
+                    794.9301560712015,
+                    814.44800992354,
+                    1092.6915173618695,
+                    786.701579940261,
+                    1023.189937014315
+                ],
+                [
+                    846.4298838349679,
+                    1004.4750184664794,
+                    718.3276285878301,
+                    816.4222743882544,
+                    937.4297640112464
+                ],
+                [
+                    903.9202109445548,
+                    793.2645954984943,
+                    1045.4089481141905,
+                    958.9092882330394,
+                    904.236565641953
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+

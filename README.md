@@ -12,4 +12,5 @@ A [Jupyter notebook](./python/process.ipynb) turns the benchmark results into gr
 
 ## Results
 
+- [Kapper 1.5 benchmark results](./results/1.5/)
 - [Kapper 1.3 benchmark results](./results/1.3/)

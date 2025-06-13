@@ -1,0 +1,13 @@
+------------------------------------------------------------------------------------------
+JMH benchmark in: kapper-benchmark-1.5.0-SNAPSHOT-jmh.jar (SHA-256: 847eb5e6b7f9f69205819990af055accbb42edcc1cbdacc8e6a33cbaa810fe5d )
+Kapper source: 12c7380
+Benchmark created at: Sat May 31 14:45:59 BST 2025
+openjdk version "21.0.5" 2024-10-15 LTS
+OpenJDK Runtime Environment Zulu21.38+21-CA (build 21.0.5+11-LTS)
+OpenJDK 64-Bit Server VM Zulu21.38+21-CA (build 21.0.5+11-LTS, mixed mode, sharing)
+------------------------------------------------------------------------------------------
+CPU: Apple M3 8 8
+RAM: 16384 MB
+------------------------------------------------------------------------------------------
++ java -jar kapper-benchmark-1.5.0-SNAPSHOT-jmh.jar -bm avgt -f 3 -i 5 -r 5s -w 2s -p databaseType=SQLITE,POSTGRESQL -p library=JDBC,KAPPER,KAPPER-RECORD,KAPPER-NO-AUTOMAP,HIBERNATE,KTORM -p rows=1000 -opi 1 -t 1 -foe true -gc true -rf json -rff results-avgt.json
+
